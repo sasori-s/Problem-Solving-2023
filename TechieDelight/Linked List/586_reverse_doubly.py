@@ -24,7 +24,6 @@ def printDDL(msg, head):
     
     print("None")
 
-# print
 
 def swap(node):
     prev = node.prev
