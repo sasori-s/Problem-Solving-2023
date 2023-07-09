@@ -23,6 +23,7 @@ def findTriplets(arr, target):
                 end -= 1
 
     return triplets
+# print()
 
 if __name__ == "__main__":
     arr = [1, 2, -3, 4, -2, -1]
