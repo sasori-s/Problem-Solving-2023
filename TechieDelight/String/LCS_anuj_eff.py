@@ -16,7 +16,7 @@ def lcs(array_2d, m, n, A, B):
 
     if str1[m-1] == str2[n-1]:
         array_2d[m][n] = 1 + lcs(array_2d, m-1, n-1, A, B)
-        return array_2d[m][n]
+        return array_2d[m][n] 
     
     else:
         array_2d[m][n] = max(lcs(array_2d, m, n-1, A, B), lcs(array_2d, m-1, n, A, B))
