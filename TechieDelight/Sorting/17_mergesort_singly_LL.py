@@ -7,7 +7,7 @@ class Node:
 def printList(head):
     ptr = head
     while ptr:
-        print(ptr.data, end="->")
+        print(ptr.data, end=" -> ")
         ptr = ptr.next
 
     print("None")
